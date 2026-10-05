@@ -51,9 +51,9 @@ for /f "delims=" %%i in ('"%~dp0nexus-cli.exe" %*') do (
 )
 ```
 
-This small script is a wrapper of the cli that cirvumvents the previous inconvinience. The script should live in your project root folder (dont forget to add the dir to PATH) alongside the executable. If you did everything correctly you should be able to call your .cmd script on the cmd and switch between your specified aliases.
+This small script is a wrapper of the cli that circumvents the previous inconvenience. The script should live in your project root folder (dont forget to add the dir to PATH) alongside the executable. If you did everything correctly you should be able to call your .cmd script on the cmd and switch between your specified aliases.
 
-What if I use powershell instead of the ancient cmd? Fortunately I also had that question, in order to also make it work in your powershell you just need to add it your ps profile:
+What if I use powershell instead of the ancient cmd? Fortunately I also had that question, in order to also make it work in your powershell you just need to add this to your ps profile:
 
 if you dont know how to open you powershell profile, go look it up 
 
